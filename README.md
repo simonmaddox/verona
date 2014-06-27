@@ -10,6 +10,8 @@ Verona is based on [@mattt's](http://twitter.com/mattt) [Venice](https://github.
 
 ## Usage
 
+First, ensure that you have a valid `GOOGLE_PLAY_ACCESS_TOKEN` in your environment variables.
+
 ```ruby
 require 'verona'
 
