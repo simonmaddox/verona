@@ -10,7 +10,13 @@ Verona is based on [@mattt's](http://twitter.com/mattt) [Venice](https://github.
 
 ## Usage
 
-First, ensure that you have a valid `GOOGLE_PLAY_ACCESS_TOKEN` in your environment variables.
+First, ensure that you have a valid the following environment variables set up:
+
+- `GOOGLE_PLAY_CLIENT_ID`
+- `GOOGLE_PLAY_CLIENT_SECRET`
+- `GOOGLE_PLAY_REFRESH_TOKEN`
+
+You can get these from The [Google Developer Website](https://developers.google.com/android-publisher/authorization).
 
 ```ruby
 require 'verona'
