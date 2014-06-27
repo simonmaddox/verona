@@ -2,7 +2,7 @@ Verona is a simple gem for verifying Google Play In-App Purchase tokens, and ret
 
 There are two reasons why you should verify in-app purchase receipts on the server: First, it allows you to keep your own records of past purchases, which is useful for up-to-the-minute metrics and historical analysis. Second, server-side verification over SSL is the most reliable way to determine the authenticity of purchasing records.
 
-Verona is based on @mattt's ![Venice](https://github.com/nomad/venice) gem for iOS In-App Purchase verification.
+Verona is based on @mattt's [Venice](https://github.com/nomad/venice) gem for iOS In-App Purchase verification.
 
 ## Installation
 
